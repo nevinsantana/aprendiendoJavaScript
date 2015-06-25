@@ -1,0 +1,85 @@
+Orden de operaciones:
+	( )
+	/
+	%
+	+
+	-
+
+Comparadores devuelven un valor true o false
+	ejemplo
+	6 > 4	true
+	9 < 5	false
+	3 == 4	false
+	12 != 4	true
+	8 >= -2	true
+	10 <= 10	true
+
+Strings
+	Se representan en medio de " "
+	para poner dos strings seria " " + " "
+	Para concatenar con valores seria "Ejemplo de string" + 4
+	Para agregar un salto de linea es \n				ejemplo: "Salto \n de linea"
+	Para agregar sangría dentro de un string se utiliza entre comillas \t 	ejemplo: 	"Ejemplo \t con sangría"
+	Para agregar comillas dobles dentro de un string se ocupa \"		ejemplo: "Me dijo \"sangano\" "
+	Para agregar un backslash se ocupa un doble backslash \\		ejemplo: "Origen\\destino"
+	Se pueden comprarar strings con == , != asi como los valores (puede detectar mayúsculas y minúsculas)
+
+	Para ver cuantos caracteres contiene un string se ocupa .length
+	ejemplo:
+	"ghadfhgoiadfhghioadfh".length
+
+Variables
+	var nombreVariable = 3
+	Si simplemente se pone el nombre de la variable ya asignada devuelve el valor de la misma
+	No debe haber espacios en el nombre de la variable
+	No debe haber un numero al principio de la variable
+	Se pueden usar $ pero no es correcto
+	Se tienen que usar Mayusculas para cada palabra diferente dentro de la variable, como var estoEsUnaVariable
+	
+	Para asignar un nuevo valor a una variable ya existente se hace de la siguiente manera
+	
+	var nombreVariable = 3
+	nombreVariable = 9
+	Cuando se le asigna un nuevo valor, ya no se tiene que poner "var" al principio, porque la consola sabía desde antes que
+	nombreVariable ya es una variable
+
+	Se ocupa += para denotar que se esta sumando el valor actual de la variable mas lo que este a la derecha
+	ejemplo:
+	
+	es lo mismo:
+
+	nombreVariable = nombreVariable + 3
+	
+	y
+
+	nombreVariable += 3
+
+	Tambien se puede hacer lo mismo con las otras operaciones
+
+	nombreVariable *=3
+	nombreVariable /=3
+	nombreVariable -=3
+
+	Las variables se pueden incluir en strings
+
+	"El valor de la variable es " + nombreVariable + "como se puede ver"
+
+	Para incrementar el valor de una variable en 1 se ocupa:
+
+	nombreVariable++
+
+	Para decrementar se ocupa
+
+	nombreVariable--
+
+	se pueden usar comparaciones entre la cantidad de caracteres de dos variables usando
+
+	variable1.lenght > variable2.length
+
+	Esto devolvería un false
+
+	El conteo .lenght de un string empieza siempre por 0, pero siempre cuenta uno de mas
+
+Métodos
+	variable.charAt(entero)
+		Devuelve el caracter en la posición del entero que se haya introducido
