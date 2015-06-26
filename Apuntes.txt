@@ -83,3 +83,36 @@ Variables
 Métodos
 	variable.charAt(entero)
 		Devuelve el caracter en la posición del entero que se haya introducido
+
+	console.log
+		Muestra lo que está haciendo la consola interna
+
+Files Falls
+
+trenes que correran y que no correran hoy
+
+del 1 al 8 si
+del 9 al 12 no
+
+<html>
+	<head>
+		<scirpt src="trains.js"></script>  /*Aqui va la importación de código js, en <head>*/
+	</head>
+	<body>
+		<h1>JAVASCRIPT EXPRESS!</h1>
+		...
+	</body>
+</html>
+
+Es conveniente tener todo organizado dentro de un folder llamado root, dentro todos los archivos a utilizar
+
+Siempre clasificar cada tipo de archivo en folders para mantener todo organizado
+
+Para ver los procesos en consola que se estan realizando en JavaScript, simplemente se abre la consola de javascript en el navegador donde se este importando el archivo .js
+
+
+
+
+
+
+
